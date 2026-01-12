@@ -1,10 +1,10 @@
 <?php
 
-namespace VanOns\FilamentNavigation\Tests;
+namespace Xlited\FilamentNavigation\Tests;
 
 use Filament\Panel;
 use Filament\PanelProvider;
-use VanOns\FilamentNavigation\FilamentNavigation;
+use Xlited\FilamentNavigation\FilamentNavigation;
 
 class AdminPanelProvider extends PanelProvider
 {

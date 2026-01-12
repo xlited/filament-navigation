@@ -13,10 +13,10 @@ across such a case, please let us know by [opening an issue][issues], or by addi
 * Run `php artisan migrate` to update the database.
 -->
 
-## `ryangjchandler/filament-navigation` to `van-ons/filament-navigation`
+## `ryangjchandler/filament-navigation` to `xlited/filament-navigation`
 
 The package [`ryangjchandler/filament-navigation`](https://github.com/ryangjchandler/filament-navigation) was deprecated
-on August 25th, 2025. We have forked the package and will continue its development under the new name: `van-ons/filament-navigation`.
+on August 25th, 2025. We have forked the package and will continue its development under the new name: `xlited/filament-navigation`.
 
 To migrate to our package, please follow these steps:
 
@@ -26,7 +26,7 @@ To migrate to our package, please follow these steps:
     ```
 2. Install the new package:
     ```bash
-    composer require van-ons/filament-navigation
+    composer require xlited/filament-navigation
     ```
     Depending on your setup you may need to use a specific version. For more information, please refer to the
     [compatibility information](README.md#compatibility).
@@ -36,7 +36,7 @@ To migrate to our package, please follow these steps:
     use RyanChandler\FilamentNavigation\...;
     
     # New namespace
-    use VanOns\FilamentNavigation\...;
+    use Xlited\FilamentNavigation\...;
     ```
 
-[issues]: https://github.com/VanOns/filament-navigation/issues
+[issues]: https://github.com/xlited/filament-navigation/issues

@@ -1,5 +1,5 @@
 <?php
 
-use VanOns\FilamentNavigation\Tests\TestCase;
+use Xlited\FilamentNavigation\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

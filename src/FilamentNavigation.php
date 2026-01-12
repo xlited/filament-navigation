@@ -1,6 +1,6 @@
 <?php
 
-namespace VanOns\FilamentNavigation;
+namespace Xlited\FilamentNavigation;
 
 use Closure;
 use Filament\Contracts\Plugin;
@@ -8,8 +8,8 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Panel;
 use Illuminate\Support\Str;
-use VanOns\FilamentNavigation\Filament\Resources\NavigationResource;
-use VanOns\FilamentNavigation\Models\Navigation;
+use Xlited\FilamentNavigation\Filament\Resources\NavigationResource;
+use Xlited\FilamentNavigation\Models\Navigation;
 
 class FilamentNavigation implements Plugin
 {

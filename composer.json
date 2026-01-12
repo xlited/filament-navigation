@@ -1,12 +1,12 @@
 {
-    "name": "van-ons/filament-navigation",
+    "name": "xlited/filament-navigation",
     "description": "Build structured navigation menus in Filament.",
     "keywords": [
         "laravel",
         "filament",
         "navigation"
     ],
-    "homepage": "https://github.com/van-ons/filament-navigation",
+    "homepage": "https://github.com/xlited/filament-navigation",
     "license": "MIT",
     "authors": [
         {
@@ -46,13 +46,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VanOns\\FilamentNavigation\\": "src",
-            "VanOns\\FilamentNavigation\\Database\\Factories\\": "database/factories"
+            "Xlited\\FilamentNavigation\\": "src",
+            "Xlited\\FilamentNavigation\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VanOns\\FilamentNavigation\\Tests\\": "tests"
+            "Xlited\\FilamentNavigation\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -72,7 +72,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VanOns\\FilamentNavigation\\FilamentNavigationServiceProvider"
+                "Xlited\\FilamentNavigation\\FilamentNavigationServiceProvider"
             ]
         }
     },

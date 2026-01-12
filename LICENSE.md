@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) Van Ons BV <opensource@van-ons.nl>
+Copyright (c) Xlite Dev <hello@xlite.dev>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -2,10 +2,10 @@
 
 # Filament Navigation
 
-[![Latest version on GitHub](https://img.shields.io/github/release/VanOns/filament-navigation.svg?style=flat-square)](https://github.com/VanOns/filament-navigation/releases)
-[![Total downloads](https://img.shields.io/packagist/dt/van-ons/filament-navigation.svg?style=flat-square)](https://packagist.org/packages/van-ons/filament-navigation)
-[![GitHub issues](https://img.shields.io/github/issues/VanOns/filament-navigation?style=flat-square)](https://github.com/VanOns/filament-navigation/issues)
-[![License](https://img.shields.io/github/license/VanOns/filament-navigation?style=flat-square)](https://github.com/VanOns/filament-navigation/blob/main/LICENSE.md)
+[![Latest version on GitHub](https://img.shields.io/github/release/xlited/filament-navigation.svg?style=flat-square)](https://github.com/xlited/filament-navigation/releases)
+[![Total downloads](https://img.shields.io/packagist/dt/xlited/filament-navigation.svg?style=flat-square)](https://packagist.org/packages/xlited/filament-navigation)
+[![GitHub issues](https://img.shields.io/github/issues/xlited/filament-navigation?style=flat-square)](https://github.com/xlited/filament-navigation/issues)
+[![License](https://img.shields.io/github/license/xlited/filament-navigation?style=flat-square)](https://github.com/xlited/filament-navigation/blob/main/LICENSE.md)
 
 This plugin for Filament provides a `Navigation` resource that lets you build structural navigation menus with a clean drag-and-drop UI.
 
@@ -18,7 +18,7 @@ Please see the table below to determine which version you need.
 
 | Version                                                       | Filament |
 |---------------------------------------------------------------|----------|
-| [v2](https://github.com/VanOns/filament-navigation/tree/main) | \>=4.0   |
+| [v2](https://github.com/xlited/filament-navigation/tree/main) | \>=4.0   |
 | v1 (current)                                                  | <4.0     |
 
 **Please note:** the `main` branch will always be the latest major version.
@@ -28,7 +28,7 @@ Please see the table below to determine which version you need.
 Start by installing the package via Composer:
 
 ```bash
-composer require van-ons/filament-navigation:^1.0
+composer require xlited/filament-navigation:^1.0
 ```
 
 Next, run the migrations:
@@ -48,7 +48,7 @@ php artisan filament:assets
 You first need to register the plugin with Filament. This can be done inside your `PanelProvider`, e.g. `AdminPanelProvider`:
 
 ```php
-use VanOns\FilamentNavigation\FilamentNavigation;
+use Xlited\FilamentNavigation\FilamentNavigation;
 
 return $panel
     ->plugin(FilamentNavigation::make());
@@ -98,13 +98,13 @@ The scripts and documentation in this project are released under the [MIT Licens
 
 ---
 
-<p align="center"><a href="https://van-ons.nl/" target="_blank"><img src="https://opensource.van-ons.nl/files/cow.png" width="50" alt="Logo of Van Ons"></a></p>
+<p align="center"><a href="https://xlite.dev/" target="_blank"><img src="https://xlite.dev/static/img/logo.svg" width="50" alt="Logo of Xlite Dev"></a></p>
 
 [documentation]: docs
 [contributing]: CONTRIBUTING.md
 [changelog]: CHANGELOG.md
 [upgrading]: UPGRADING.md
 [security]: SECURITY.md
-[email]: mailto:opensource@van-ons.nl
+[email]: mailto:hello@xlite.dev
 [all-contributors]: ../../contributors
 [license]: LICENSE.md

@@ -1,8 +1,8 @@
 <?php
-// config for VanOns/FilamentNavigation
+// config for Xlited/FilamentNavigation
 return [
 
-    'navigation_model' => \VanOns\FilamentNavigation\Models\Navigation::class,
+    'navigation_model' => \Xlited\FilamentNavigation\Models\Navigation::class,
 
-    'navigation_resource' => \VanOns\FilamentNavigation\Filament\Resources\NavigationResource::class,
+    'navigation_resource' => \Xlited\FilamentNavigation\Filament\Resources\NavigationResource::class,
 ];

@@ -3,7 +3,7 @@
 You first need to register the plugin with Filament. This can be done inside your `PanelProvider`, e.g. `AdminPanelProvider`:
 
 ```php
-use VanOns\FilamentNavigation\FilamentNavigation;
+use Xlited\FilamentNavigation\FilamentNavigation;
 
 return $panel
     ->plugin(FilamentNavigation::make());
@@ -54,10 +54,10 @@ The recursive structure makes it really simple to render nested menus / dropdown
 
 ### Retrieving a navigation object
 
-To retrieve a navigation object, provide the handle to the `VanOns\FilamentNavigation\Models\Navigation::fromHandle()` method:
+To retrieve a navigation object, provide the handle to the `Xlited\FilamentNavigation\Models\Navigation::fromHandle()` method:
 
 ```php
-use VanOns\FilamentNavigation\Models\Navigation;
+use Xlited\FilamentNavigation\Models\Navigation;
 
 $menu = Navigation::fromHandle('main-menu');
 ```
@@ -108,7 +108,7 @@ This plugin also provides a custom Filament field that can be used to search and
 forms and resources:
 
 ```php
-use VanOns\FilamentNavigation\Filament\Fields\NavigationSelect;
+use Xlited\FilamentNavigation\Filament\Fields\NavigationSelect;
 
 ->schema([
     NavigationSelect::make('navigation_id'),

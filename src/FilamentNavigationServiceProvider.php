@@ -1,6 +1,6 @@
 <?php
 
-namespace VanOns\FilamentNavigation;
+namespace Xlited\FilamentNavigation;
 
 use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;

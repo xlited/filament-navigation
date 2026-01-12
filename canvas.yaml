@@ -1,6 +1,6 @@
 preset: package
 
-namespace: VanOns\FilamentNavigation
+namespace: Xlited\FilamentNavigation
 user-auth-provider: App\User
 
 paths:
@@ -15,13 +15,13 @@ migration:
   prefix: ''
 
 console:
-  namespace: VanOns\FilamentNavigation\Console
+  namespace: Xlited\FilamentNavigation\Console
 
 model:
-  namespace: VanOns\FilamentNavigation
+  namespace: Xlited\FilamentNavigation
 
 provider:
-  namespace: VanOns\FilamentNavigation\Providers
+  namespace: Xlited\FilamentNavigation\Providers
 
 testing:
-  namespace: VanOns\FilamentNavigation\Tests
+  namespace: Xlited\FilamentNavigation\Tests

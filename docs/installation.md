@@ -20,7 +20,7 @@ Please see the table below to determine which version you need.
 Start by installing the package via Composer:
 
 ```bash
-composer require van-ons/filament-navigation
+composer require xlited/filament-navigation
 ```
 
 Next, run the migrations:
