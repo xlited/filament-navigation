@@ -29,7 +29,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'VanOns\\FilamentNavigation\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'Xlited\\FilamentNavigation\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
         );
     }
 

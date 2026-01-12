@@ -3,7 +3,7 @@
 # Filament Navigation
 
 [![Latest version on GitHub](https://img.shields.io/github/release/xlited/filament-navigation.svg?style=flat-square)](https://github.com/xlited/filament-navigation/releases)
-[![Total downloads](https://img.shields.io/packagist/dt/van-ons/filament-navigation.svg?style=flat-square)](https://packagist.org/packages/van-ons/filament-navigation)
+[![Total downloads](https://img.shields.io/packagist/dt/xlited/filament-navigation.svg?style=flat-square)](https://packagist.org/packages/xlited/filament-navigation)
 [![GitHub issues](https://img.shields.io/github/issues/xlited/filament-navigation?style=flat-square)](https://github.com/xlited/filament-navigation/issues)
 [![License](https://img.shields.io/github/license/xlited/filament-navigation?style=flat-square)](https://github.com/xlited/filament-navigation/blob/main/LICENSE.md)
 
@@ -28,7 +28,7 @@ Please see the table below to determine which version you need.
 Start by installing the package via Composer:
 
 ```bash
-composer require van-ons/filament-navigation:^2.0
+composer require xlited/filament-navigation:^2.0
 ```
 
 Next, run the migrations:
@@ -98,13 +98,13 @@ The scripts and documentation in this project are released under the [MIT Licens
 
 ---
 
-<p align="center"><a href="https://van-ons.nl/" target="_blank"><img src="https://opensource.van-ons.nl/files/cow.png" width="50" alt="Logo of Van Ons"></a></p>
+<p align="center"><a href="https://xlite.dev/" target="_blank"><img src="https://xlite.dev/static/img/logo.svg" width="50" alt="Logo of Xlite Dev"></a></p>
 
 [documentation]: docs
 [contributing]: CONTRIBUTING.md
 [changelog]: CHANGELOG.md
 [upgrading]: UPGRADING.md
 [security]: SECURITY.md
-[email]: mailto:opensource@van-ons.nl
+[email]: mailto:hello@xlite.dev
 [all-contributors]: ../../contributors
 [license]: LICENSE.md

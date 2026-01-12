@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > Coming from [`ryangjchandler/filament-navigation`](https://github.com/ryangjchandler/filament-navigation)? Please see
-> the [upgrade guide](../UPGRADING.md#ryangjchandlerfilament-navigation-to-van-onsfilament-navigation) for more information.
+> the [upgrade guide](../UPGRADING.md#) for more information.
 
 ## Compatibility
 
@@ -20,7 +20,7 @@ Please see the table below to determine which version you need.
 Start by installing the package via Composer:
 
 ```bash
-composer require van-ons/filament-navigation
+composer require xlited/filament-navigation
 ```
 
 Next, run the migrations:
