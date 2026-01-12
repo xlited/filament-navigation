@@ -1,6 +1,6 @@
 <?php
 
-namespace VanOns\FilamentNavigation\Filament\Resources\NavigationResource\Pages\Concerns;
+namespace Xlited\FilamentNavigation\Filament\Resources\NavigationResource\Pages\Concerns;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
@@ -12,7 +12,7 @@ use Filament\Schemas\Components\Utilities\Set;
 use Filament\Schemas\Schema;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use VanOns\FilamentNavigation\FilamentNavigation;
+use Xlited\FilamentNavigation\FilamentNavigation;
 
 trait HandlesNavigationBuilder
 {

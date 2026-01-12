@@ -2,10 +2,10 @@
 
 # Filament Navigation
 
-[![Latest version on GitHub](https://img.shields.io/github/release/VanOns/filament-navigation.svg?style=flat-square)](https://github.com/VanOns/filament-navigation/releases)
+[![Latest version on GitHub](https://img.shields.io/github/release/xlited/filament-navigation.svg?style=flat-square)](https://github.com/xlited/filament-navigation/releases)
 [![Total downloads](https://img.shields.io/packagist/dt/van-ons/filament-navigation.svg?style=flat-square)](https://packagist.org/packages/van-ons/filament-navigation)
-[![GitHub issues](https://img.shields.io/github/issues/VanOns/filament-navigation?style=flat-square)](https://github.com/VanOns/filament-navigation/issues)
-[![License](https://img.shields.io/github/license/VanOns/filament-navigation?style=flat-square)](https://github.com/VanOns/filament-navigation/blob/main/LICENSE.md)
+[![GitHub issues](https://img.shields.io/github/issues/xlited/filament-navigation?style=flat-square)](https://github.com/xlited/filament-navigation/issues)
+[![License](https://img.shields.io/github/license/xlited/filament-navigation?style=flat-square)](https://github.com/xlited/filament-navigation/blob/main/LICENSE.md)
 
 This plugin for Filament provides a `Navigation` resource that lets you build structural navigation menus with a clean drag-and-drop UI.
 
@@ -19,7 +19,7 @@ Please see the table below to determine which version you need.
 | Version                                                             | Filament |
 |---------------------------------------------------------------------|----------|
 | v2 (current)                                                        | \>=4.0   |
-| [v1](https://github.com/VanOns/filament-navigation/tree/release/v1) | <4.0     |
+| [v1](https://github.com/xlited/filament-navigation/tree/release/v1) | <4.0     |
 
 **Please note:** the `main` branch will always be the latest major version.
 
@@ -48,7 +48,7 @@ php artisan filament:assets
 You first need to register the plugin with Filament. This can be done inside your `PanelProvider`, e.g. `AdminPanelProvider`:
 
 ```php
-use VanOns\FilamentNavigation\FilamentNavigation;
+use Xlited\FilamentNavigation\FilamentNavigation;
 
 return $panel
     ->plugin(FilamentNavigation::make());

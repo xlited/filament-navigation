@@ -1,10 +1,10 @@
 <?php
 
-namespace VanOns\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
+namespace Xlited\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
 
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
-use VanOns\FilamentNavigation\FilamentNavigation;
+use Xlited\FilamentNavigation\FilamentNavigation;
 
 class ListNavigations extends ListRecords
 {

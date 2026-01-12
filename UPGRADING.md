@@ -36,7 +36,7 @@ To migrate to our package, please follow these steps:
     use RyanChandler\FilamentNavigation\...;
     
     # New namespace
-    use VanOns\FilamentNavigation\...;
+    use Xlited\FilamentNavigation\...;
     ```
 
-[issues]: https://github.com/VanOns/filament-navigation/issues
+[issues]: https://github.com/xlited/filament-navigation/issues

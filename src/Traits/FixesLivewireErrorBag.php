@@ -1,6 +1,6 @@
 <?php
 
-namespace VanOns\FilamentNavigation\Traits;
+namespace Xlited\FilamentNavigation\Traits;
 
 use Illuminate\Support\MessageBag;
 

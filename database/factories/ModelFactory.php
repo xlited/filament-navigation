@@ -1,6 +1,6 @@
 <?php
 
-namespace VanOns\FilamentNavigation\Database\Factories;
+namespace Xlited\FilamentNavigation\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

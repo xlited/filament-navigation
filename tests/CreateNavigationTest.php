@@ -5,8 +5,8 @@ use Pest\Expectation;
 
 use function Pest\Laravel\assertDatabaseHas;
 
-use VanOns\FilamentNavigation\Filament\Resources\NavigationResource\Pages\CreateNavigation;
-use VanOns\FilamentNavigation\Models\Navigation;
+use Xlited\FilamentNavigation\Filament\Resources\NavigationResource\Pages\CreateNavigation;
+use Xlited\FilamentNavigation\Models\Navigation;
 
 it('can create a navigation menu', function () {
     Livewire::test(CreateNavigation::class)

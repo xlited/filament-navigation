@@ -24,6 +24,6 @@ By contributing, you agree that your contributions will be licensed under the [M
 - [How to contribute to Open Source](https://opensource.guide/how-to-contribute/)
 
 [code-of-conduct]: CODE_OF_CONDUCT.md
-[issues]: https://github.com/VanOns/filament-navigation/issues
-[discussions]: https://github.com/VanOns/filament-navigation/discussions
+[issues]: https://github.com/xlited/filament-navigation/issues
+[discussions]: https://github.com/xlited/filament-navigation/discussions
 [license]: LICENSE.md

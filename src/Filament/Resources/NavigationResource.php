@@ -1,6 +1,6 @@
 <?php
 
-namespace VanOns\FilamentNavigation\Filament\Resources;
+namespace Xlited\FilamentNavigation\Filament\Resources;
 
 use BackedEnum;
 use Filament\Actions\DeleteAction;
@@ -18,8 +18,8 @@ use Filament\Schemas\Schema;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Support\Str;
-use VanOns\FilamentNavigation\FilamentNavigation;
-use VanOns\FilamentNavigation\Models\Navigation;
+use Xlited\FilamentNavigation\FilamentNavigation;
+use Xlited\FilamentNavigation\Models\Navigation;
 
 class NavigationResource extends Resource
 {
